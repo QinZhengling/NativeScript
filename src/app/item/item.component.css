@@ -1,0 +1,38 @@
+.far {
+  font-family: "Font Awesome 5 Free", "fa-regular-400";
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands", "fa-brands-400";
+}
+
+.fas {
+  font-family: "Font Awesome 5 Free", "fa-solid-900";
+}
+
+.ico {
+  font-family: "IcoMoon-Free";
+}
+.box {
+  width: 300;
+  height: 300;
+  /* background-color: aqua; */
+  border-radius: 10%;
+}
+.view {
+  width: 200;
+  height: 200;
+  border-radius: 100%;
+  animation-name: example;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes example {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2.5);
+  }
+}
